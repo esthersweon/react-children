@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">I am an app</h1>
+          <h1>React's this.props.children</h1>
         </header>
         <Accordion>
           {/* Everything between opening / closing tag of Accordion is considered its children */}
